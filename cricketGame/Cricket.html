@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  
+  <title>Cricketgame</title>
+</head>
+<body>
+  <h1>Bat Ball Stump Game</h1>
+  <button onclick="
+  console.log('You have chosen Bat'); 
+  let RandomNumber = Math.random()*3
+  if (RandomNumber >0 && RandomNumber<= 0.4) {
+    let computerChoice = 'Bat';
+    console.log(' Computer choosen bat');
+  }
+  else if (RandomNumber > 0.2 && RandomNumber <= 2) {
+    let computerChoice = 'Ball';
+    console.log(' Computer choosen ball');
+  }
+  else { 
+  let computerChoice = 'Bat';
+    console.log(' Computer choosen Slump') 
+    }
+  ">Bat</button>
+  <button>Ball</button>
+  <button>Slump</button>
+</body>
+</html>

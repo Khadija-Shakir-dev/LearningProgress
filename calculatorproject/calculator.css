@@ -1,0 +1,38 @@
+
+/* #a53860  light */
+/* #da627d */
+/* #f9dbbd inner */
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Calculator{
+  border: 1px solid #a53860 ;
+  border-radius: 5px;
+  width: 200px;
+  background: #da627d;
+  
+  
+}
+
+#display{
+  width: 85%;
+  margin: 10px;
+  font-size: 25px;
+}
+.btn-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+    .btn{
+  border: 1px solid #a53860 ;
+      background: #f9dbbd;
+      height: 45px;
+      width: 45px;
+      margin: 3px;
+      font-size:20px;
+      
+    }
